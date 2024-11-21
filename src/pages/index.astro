@@ -1,0 +1,111 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+
+const features = [
+  {
+    title: "Custom SEO consultation",
+    value: "$300 FREE",
+    description: "Get expert guidance with a tailored SEO plan from a leading, vetted agency including a 1-hour live call and personalized action plan."
+  },
+  {
+    title: "Semrush Pro",
+    value: "1 month for $140",
+    description: "Access powerful marketing tools including AI Keyword Research, Site Audit for 140+ common errors, and deep competitor analysis."
+  },
+  {
+    title: "Higher Rankings",
+    value: "$300 in Savings!",
+    description: "Start your 2025 SEO strategy with expert guidance and professional tools to boost your rankings."
+  }
+];
+---
+
+<Layout 
+  title="Semrush Black Friday Deal 2024 - Best Semrush Discount & Promo Code [Save $300]" 
+  description="🔥 Exclusive Semrush Black Friday Deal 2024: Get Semrush Pro + FREE $300 SEO consultation. Best Semrush discount code & coupon for Black Friday 2024. Limited time Semrush promo offer!">
+  
+  <main class="max-w-6xl mx-auto px-4 py-12">
+    <!-- Hero Section -->
+    <section class="text-center mb-16">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">
+        Semrush Black Friday Deal 2024
+        <span class="block text-orange-500 mt-2">Exclusive Semrush Discount: Save $300</span>
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-600 mb-8">
+        🎉 Best Semrush Black Friday offer: Get a FREE $300 SEO consultation with your Semrush Pro subscription!
+      </p>
+      <a href="https://semrush.sjv.io/c/3485346/2212097/13053" 
+         class="inline-block bg-orange-500 text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-orange-600 transition-colors transform hover:scale-105">
+        Claim Your Semrush Discount Now
+      </a>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="grid md:grid-cols-3 gap-8 mb-16">
+      {features.map(feature => <FeatureCard {...feature} />)}
+    </section>
+
+    <!-- How It Works -->
+    <section class="bg-white rounded-2xl p-8 mb-16">
+      <h2 class="text-3xl font-bold text-center mb-8">How to Get Your Semrush Black Friday Discount</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="text-4xl font-bold text-orange-500 mb-4">1</div>
+          <p>Activate your Semrush Pro subscription with this exclusive promo</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-orange-500 mb-4">2</div>
+          <p>Complete the form for your Semrush consultation</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl font-bold text-orange-500 mb-4">3</div>
+          <p>Get your personalized SEO strategy worth $300</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEO Content -->
+    <section class="bg-white rounded-2xl p-8 mb-16">
+      <h2 class="text-3xl font-bold mb-6">Why This Semrush Black Friday Deal 2024 Is Unmissable</h2>
+      <div class="prose max-w-none">
+        <p class="mb-4">Looking for the best Semrush discount? This Black Friday 2024, Semrush is offering an incredible deal that combines their powerful SEO tools with expert consultation. When you purchase a Semrush Pro subscription using our exclusive Semrush promo code, you'll receive a FREE SEO consultation valued at $300!</p>
+        
+        <h3 class="text-2xl font-bold mb-4 mt-8">Exclusive Semrush Black Friday Coupon Benefits</h3>
+        <ul class="list-disc pl-6 mb-6">
+          <li>Access to Semrush Pro's complete suite of SEO tools</li>
+          <li>Professional SEO consultation worth $300</li>
+          <li>Personalized website analysis and strategy</li>
+          <li>Competitive research capabilities</li>
+          <li>Keyword tracking and position monitoring</li>
+        </ul>
+
+        <h3 class="text-2xl font-bold mb-4">About Semrush Pro Subscription</h3>
+        <p class="mb-4">Semrush Pro is the industry-leading SEO and digital marketing platform trusted by millions of marketers worldwide. With this special Semrush Black Friday promotion, you'll get access to essential features like:</p>
+        <ul class="list-disc pl-6 mb-6">
+          <li>Advanced keyword research tools</li>
+          <li>Competitor analysis</li>
+          <li>Site audit capabilities</li>
+          <li>Position tracking</li>
+          <li>SEO writing assistant</li>
+        </ul>
+
+        <h3 class="text-2xl font-bold mb-4">Limited Time Semrush Offer</h3>
+        <p class="mb-4">Don't miss out on this exclusive Semrush deal! This Black Friday discount on Semrush Pro combined with a FREE SEO consultation is only available for a limited time. Get the best Semrush coupon offer of 2024 and start improving your SEO strategy today.</p>
+      </div>
+    </section>
+
+    <!-- CTA Bottom -->
+    <section class="text-center">
+      <h2 class="text-3xl font-bold mb-6">🔥 Limited Time Semrush Black Friday Deal 2024!</h2>
+      <p class="text-xl text-gray-600 mb-8">Get your exclusive Semrush discount now - includes FREE $300 SEO consultation</p>
+      <a href="https://semrush.sjv.io/c/3485346/2212097/13053" 
+         class="inline-block bg-orange-500 text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-orange-600 transition-colors transform hover:scale-105">
+        Activate Your Semrush Promo Now
+      </a>
+    </section>
+  </main>
+</Layout></content></file>
+
+<boltAction type="start">
+<command>npm run dev</command>
